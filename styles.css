@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+header, footer {
+    background-color: #1F2937;
+    padding: 0rem 10%;
+}
+
+header {
+    padding-bottom: 3rem;
+}
+
+.header-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    color: #F9FAF8;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0rem;
+}
+
+header li {
+    font-size: 1.125rem;
+    padding: 0.25rem 1rem;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 1.125rem;
+    color: #EfE7EB;
+}
+
+.header-hero {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 2rem; 
+    margin: 3rem 0rem;
+    align-items: center;
+}
+
+.hero {
+    flex: 1;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.hero p {
+    font-size: 1.125rem;
+    color: #EfE7EB;
+    margin: 0.25rem 0rem;
+    padding: 0rem;
+}
+
+.header-image {
+    background-color: darkgray;
+    color: #EfE7EB;
+    flex: 1;
+    margin: 0rem auto;
+    min-width: min(75vw, 15rem);
+    padding: 5rem 0rem;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 2.25rem;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+main ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin: 0rem 10%;
+    padding-left: 0rem;
+}
+
+main li {
+    margin: 0 0;
+    padding: 0 0;
+    text-align: center;
+    width: 10rem;
+}
+
+main li p {
+    margin: 0rem;
+    padding: 0rem 0.5rem;
+}
+
+.card {
+    border: 4px solid #3882F6;
+    border-radius: 0.75rem;
+    height: 10rem;
+    margin: 0 auto;
+    width: 10rem;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 5rem 0rem;
+    margin: 5rem 0rem;
+}
+
+.quote p {
+    color: #1F2937;
+    font-style: italic;
+    font-weight: light;
+    font-size: 2.25rem;
+    margin: 0rem 20%;
+    padding: 0rem;
+}
+
+p.quotee {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: bolder;
+    float: right;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    border-radius: 0.4rem; 
+    color: #EfE7EB;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 5rem 10%;
+    padding: 2rem min(10%, 5rem);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text h3, .text p{
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #3882F6;
+    border: 2px solid #EfE7EB;
+    border-radius: 0.4rem; 
+    color: #EfE7EB;
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+}
+
+.hero button {
+    border: 0;
+}
+
+footer {
+    color: #EfE7EB;
+    padding: 1rem;
+    text-align: center;
+}
